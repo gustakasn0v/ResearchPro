@@ -1,0 +1,91 @@
+/*
+* This file is provided for application-specific style rules.
+*
+* By default, Maqetta includes this CSS file within HTML pages
+* authored in Maqetta.
+*
+* This file is typically used to override style rules found in
+* theme CSS files. For example, suppose the theme CSS file has:
+*
+* .claro .dijitButton .dijitButtonNode {
+*		padding:2px 4px 4px 4px;
+* }
+*
+* But for your application suppose you want to tighten the padding
+* for buttons. Then, you might include the following style rule
+* in this file (assuming that you accept Maqetta's default where
+* id "myapp" is present on the BODY element, and assuming
+* that you are using the "claro" theme):
+*
+* #myapp.claro .dijitButton .dijitButtonNode {
+*		padding:1px 3px 3px 3px;
+* }
+*
+* Because of CSS precedence rules (see [1]), the above style rule
+* (which begins with #myapp.claro) will "win the cascade" versus 
+* the style rule from the theme CSS file due to the use of the
+* ID select (#myapp), which has higher specificity than the class
+* selectors used throughout the Claro theme.
+*
+* [1] http://www.w3.org/TR/CSS21/cascade.html#cascade
+*/
+html, body {
+    height : 100%;
+    width : 100%;
+}
+#myapp.claro .TransparentWidget {
+    background-color : transparent;
+}
+#myapp.claro .leftSidebar {
+    position : absolute;
+}
+#myapp.claro .DocumentTooltip {
+    border : 3px solid 313433;
+    position : absolute;
+    left : 25.5px;
+    width : 162.00000500679016px;
+    height : 222.00000500679016px;
+}
+#myapp.claro .DocumentTooltipImage {
+    width : 137px;
+    height : 198px;
+    left : 39px;
+    position : absolute;
+}
+#myapp.claro .workstation-topBanner {
+    width : 1377px;
+    height : 132px;
+    left : -20px;
+    top : -5.875px;
+    position : fixed;
+}
+#myapp.claro .DocumentPreview {
+    width : 412px;
+    height : 498px;
+    left : 343px;
+    top : 149px;
+}
+#myapp.claro .DocumentTooltipLabel {
+}
+#myapp.claro .TrailLabel {
+    top : 89px;
+    font-size : 12px;
+}
+#myapp.claro .TrailImage {
+    border : 1px solid black;
+    top : 7px;
+    width : 60px;
+    height : 80px;
+}
+#myapp.claro .TrailArrow {
+    top : 41px;
+}
+#myapp.claro .3dlinksWindow {
+    left : 254px;
+}
+#myapp.claro .3dlinksWindow {
+    left : 254px;
+}
+#myapp.claro .3dlinksWindow {
+    left : 254px;
+}

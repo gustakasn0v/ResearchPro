@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Untitled</title>
+<script type="text/javascript" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../gridx'},{'name':'clipart','location':'../../clipart'},{'name':'maqettaSamples','location':'../../../samples'},{'name':'maqetta','location':'../../maqetta'},{'name':'shapes','location':'../../shapes'},{'name':'zazl','location':'../../zazl'},{'name':'widgets','location':'../../custom'}],'themeMap':[['Android','',['themes/android/android.css']],['BlackBerry','',['themes/blackberry/blackberry.css']],['iPad','',['themes/ipad/ipad.css']],['iPhone','',['themes/iphone/iphone.css']],['.*','',['themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''" src="lib/dojo/dojo/dojo.js"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dojox/mobile",
+  "dojox/mobile/deviceTheme",
+  "dojo/hash",
+  "dojox/mobile/Button",
+  "dojox/mobile/ContentPane",
+  "dojox/mobile/FixedSplitter",
+  "dojox/mobile/Pane"
+]);
+</script>
+<style>@import "themes/claro/claro.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"></meta>
+</head>
+<body data-maq-device="iphone" data-maq-flow-layout="true" data-maq-comptype="mobile" class="claro" data-maq-ws="collapse" data-maq-orientation="landscape" id="myapp" data-maq-appstates="{}">
+ <div id="View_0" data-dojo-type="dojox/mobile/View" style="height: 100%;" selected="true">
+  <div data-dojo-type="dojox/mobile/ContentPane" style="background-color: #4791da; height: 320px; width: 481px;">
+    <button data-dojo-type="dojox/mobile/Button" style="position: absolute; z-index: 900; left: 180.50000250339508px; top: 147px;" onclick="location.href='file3.html'">
+      Workstation</button>
+    <img src="image (4).png" style="width: 277px; height: 60px; position: absolute; z-index: 900; left: 101.5px; top: 45px;"></img>
+    <button data-dojo-type="dojox/mobile/Button" style="position: absolute; z-index: 900; height: 30px; width: 114.33333587646484px; left: 182.6666717529297px; top: 202px;">
+      Inbox</button>
+    <button data-dojo-type="dojox/mobile/Button" style="height: 30px; position: absolute; z-index: 900; width: 114.33333587646484px; left: 182.6666717529297px; top: 264px;">
+      Navigate Trails</button>
+  </div>
+</div>
+ <div id="View_1" data-dojo-type="dojox/mobile/View" style="height: 100%;">
+  <ul data-dojo-type="dojox/mobile/RoundRectList">
+    <li data-dojo-type="dojox/mobile/ListItem">
+      <label class="mblListItemLabel">
+        Hey</label>
+    </li>
+    <li data-dojo-type="dojox/mobile/ListItem">
+      <label class="mblListItemLabel">
+        Hey</label>
+    </li>
+    <li data-dojo-type="dojox/mobile/ListItem">
+      2</li>
+  </ul>
+</div>
+</body>
+</html>
