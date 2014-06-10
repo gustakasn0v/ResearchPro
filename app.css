@@ -97,3 +97,51 @@ html, body {
     background-color : #a3baff;
     font-size : 9;
 }
+#myapp.claro .AssociateButton {
+    height : 27px;
+    position : absolute;
+    z-index : 900;
+    left : 853px;
+    top : 742px;
+    width : 107.94445037841797px;
+}
+#myapp.claro .SearchButton {
+    width : 96.5451431274414px;
+    height : 29px;
+    position : absolute;
+    z-index : 900;
+    left : 986.9618530273438px;
+    top : 740.9896240234375px;
+}
+#myapp.claro .ViewLinksButton {
+    width : 101.98958587646484px;
+    height : 27.993057250976562px;
+    left : 1115.9896240234375px;
+    top : 741.0000610351562px;
+    z-index : 900;
+    position : absolute;
+}
+#myapp.claro .AssociateButtonIcon {
+    width : 22.993057250976562px;
+    height : 22.993057250976562px;
+    position : absolute;
+    z-index : 900;
+    left : 854.96533203125px;
+    top : 746.9548950195312px;
+}
+#myapp.claro .SearchButtonIcon {
+    width : 20.99652862548828px;
+    height : 20.99652862548828px;
+    top : 745.0000610351562px;
+    position : absolute;
+    z-index : 900;
+    left : 988.951416015625px;
+}
+#myapp.claro .ViewLinksButtonIcon {
+    position : absolute;
+    z-index : 1000;
+    width : 25.986112594604492px;
+    height : 26.986112594604492px;
+    top : 740.9896240234375px;
+    left : 1118.96875px;
+}
