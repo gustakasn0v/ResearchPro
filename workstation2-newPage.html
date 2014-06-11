@@ -27,7 +27,8 @@ require([
   "dojox/mobile/Slider",
   "dojo/hash",
   "dojox/mobile/ScrollableView",
-  "shapes/Text"
+  "shapes/Text",
+  "dojox/mobile/TextArea"
 ]);
 </script>
 <style>@import "themes/claro/claro.css";@import "lib/shapes/shapes.css";@import "app.css";
@@ -36,8 +37,11 @@ require([
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"></meta>
 </head>
 <body data-maq-device="androidtablet" data-maq-flow-layout="true" data-maq-comptype="mobile" class="claro" data-maq-ws="collapse" data-maq-orientation="landscape" id="myapp" data-maq-appstates="{}">
- <div data-dojo-type="dojox/mobile/Container" style="border: 1px solid 313431; border-width: 1px; border-style: solid; border-color: #686464; position: absolute; z-index: 900; width: 866px; height: 100px; left: 19px; top: 4px;" class="DocumentTooltip"></div>
- <div data-dojo-type="dojox/mobile/Container" style="position: absolute; z-index: 900; background-color: #A3A3C2; width: 1064.6875px; height: 568.4375px; left: -9.140625px; top: 113.6875px;"></div>
+ <div data-dojo-type="dojox/mobile/Container" style="border: ---; position: absolute; z-index: 900; background-color: #A3A3C2; width: 1064.6875px; height: 568.4375px; left: -9.125px; top: 113.6875px;"></div>
+ <textarea data-dojo-type="dojox/mobile/TextArea"></textarea>
+ <textarea data-dojo-type="dojox/mobile/TextArea"></textarea>
+ <textarea data-dojo-type="dojox/mobile/TextArea"></textarea>
+ <textarea class="DocumentPreview" style="border: 2px solid black; position: absolute; z-index: 900; background-color: white;"></textarea>
  <div data-dojo-type="dojox/mobile/Container" style="background-color: #7094FF;" class="workstation-topBanner"></div>
  <div data-dojo-type="dojox/mobile/Container" style="position: absolute; z-index: 900; width: 1314px; background-color: #7094FF; height: 120px; left: -25.455154418945312px; top: 680.250560760498px;"></div>
  <button data-dojo-type="dojox/mobile/Button" style="position: absolute; z-index: 900; left: 1116px; top: 740px;">
@@ -76,11 +80,10 @@ Associate</button>
  <span data-dojo-type="shapes/Text" style="font-size: 14px; position: absolute; z-index: 900; left: 54px; top: 649px;" class="DocumentTooltipLabel">La selva tropical</span>
 <img src="tooltip1.png" style="position: absolute; z-index: 900; left: 76.5px;" class="TrailImage" onclick="location.href='workstation3.html'"></img>
 <span data-dojo-type="shapes/Text" style="position: absolute; z-index: 900; left: 63px;" class="TrailLabel">Los platelmintos</span>
-<img src="tooltip2.png" style="position: absolute; z-index: 900;" class="DocumentPreview"></img>
 <span data-dojo-type="shapes/Line" points="0,0,26,0" startarrow="none" endarrow="forward" style="position: absolute; z-index: 900; width: 32px; height: 14px; left: 159px;" class="TrailArrow"></span><img src="tooltip2.png" style="position: absolute; z-index: 900; left: 208px;" class="TrailImage"></img>
 <span data-dojo-type="shapes/Text" style="position: absolute; z-index: 900; left: 194.5px;" class="TrailLabel">La selva tropical</span>
 <img src="xpng.png" style="width: 31.979171752929688px; height: 27.979167938232422px; position: absolute; z-index: 900; left: 1012px; top: 128px;"></img>
-<img src="System-Save-icon.png" style="width: 27px; height: 28.979167938232422px; position: absolute; z-index: 900; left: 964px; top: 126.66667175292969px;"></img>
-<img src="add.png" style="width: 38.97916793823242px; height: 30.979167938232422px; position: absolute; z-index: 900; left: 905.3333129882812px; top: 126.66667175292969px;" onclick="location.href='workstation2-newPage.html'"></img>
+<img src="System-Save-icon.png" style="width: 27px; height: 28.979167938232422px; position: absolute; z-index: 900; left: 964px; top: 126.66667175292969px;" onclick="location.href='workstation2-saveChanges.html'"></img>
+<img src="add.png" style="width: 38.97916793823242px; height: 30.979167938232422px; position: absolute; z-index: 900; left: 905.3333129882812px; top: 126.66667175292969px;"></img>
 </body>
 </html>

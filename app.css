@@ -89,3 +89,11 @@ html, body {
 #myapp.claro .3dlinksWindow {
     left : 254px;
 }
+#myapp.claro .SaveDialog {
+    width : 262.0000100135803px;
+    height : 63.00000238418579px;
+    left : 779.3124809265137px;
+    top : 169.66666793823242px;
+    background-color : #a3baff;
+    font-size : 9;
+}
